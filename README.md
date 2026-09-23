@@ -12,7 +12,9 @@ Basada en [P4-Utils](https://nsg-ethz.github.io/p4-utils/).
 
 - files/avanzado_plantilla.p4 -> plantilla de un programa P4 que implementa un protocolo llamado TeP4.
 
-- files/controlador_avanzado_plantilla.py -> plantilla de un controlador para el plano de datos creado con avanzado_plantilla.p4
+- files/controlador_avanzado_plantilla.py -> plantilla de un controlador para el plano de datos creado con avanzado_plantilla.p4.
+
+- files/disector/disector_TeP4.lua -> disector para que Wireshark decodifique paquetes TeP4.
 
 - protobuf/ -> conjunto de ficheros .proto para que Wireshark decodifique tráfico en el plano de control de los conmutadores P4.
  
